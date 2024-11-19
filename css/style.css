@@ -46,4 +46,23 @@ display: flex;
   .gradient-button:hover {
     transform: scale(1.05);
   }
-  
+  .gradient-text {
+    font-size: 48px; /* Adjust the font size as needed */
+    font-weight:bolder;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff416c, #8b54ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btnpost{
+    align-items: center;
+    /* border: 2px solid var(#E9E6DF); */
+    max-width: 500px;
+    border: 1px solid #E9E6DF;
+    margin: 0 auto;
+    height: 54px;
+    border-radius: 30px;
+    /* padding: 15px 20px; */
+    margin-top: 2.25rem;
+    cursor: pointer;
+}
