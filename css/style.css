@@ -111,6 +111,7 @@ display: flex;
     /* margin-left: 16px;
     margin-right: 16px; */
     display: flex;
+    box-sizing: inherit;
     margin:20px 150px;
     align-items: center;
     text-align: center;
